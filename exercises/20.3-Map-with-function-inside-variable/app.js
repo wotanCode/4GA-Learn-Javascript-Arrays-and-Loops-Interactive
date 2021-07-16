@@ -5,3 +5,5 @@ let prepender = function(name){
 };
 
 //your code here
+var namesMejorados = names.map(prepender);
+console.log (namesMejorados);

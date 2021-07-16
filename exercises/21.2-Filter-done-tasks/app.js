@@ -10,3 +10,7 @@ let tasks = [
 ];
 
 //your code here
+let tarea = tasks.filter(function(boleano){
+    return (boleano.done == true)
+});
+console.log(tarea);
